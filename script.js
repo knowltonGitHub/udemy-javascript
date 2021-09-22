@@ -1,19 +1,5 @@
 'use strict';
 
-//DOM manipulation
-
-//get value of element with class ".message"
-// console.log(document.querySelector('.message').textContent);
-
-// //set the value of the element with class ".message"
-// document.querySelector('.message').textContent = 'you won';
-
-// document.querySelector('.number').textContent = 13;
-
-// document.querySelector('.score').textContent = 26;
-
-// console.log((document.querySelector('.guess').value = 25));
-
 // //handle button click:
 let secretNumber = Math.trunc(Math.random() * 20 + 1);
 let score = 20;
